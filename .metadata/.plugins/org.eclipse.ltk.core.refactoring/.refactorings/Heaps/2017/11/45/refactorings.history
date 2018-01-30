@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;CompositeKey.java&apos; to &apos;CompositeKeyHashMaps/src&apos;&#x0A;- Original project: &apos;Heaps&apos;&#x0A;- Destination element: &apos;CompositeKeyHashMaps/src&apos;&#x0A;- Original element: &apos;com.arvindve.heaps.CompositeKey.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=CompositeKeyHashMaps/src" element1="/src&lt;com.arvindve.heaps{CompositeKey.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1510108477178" units="1" version="1.0"/>
+</session>

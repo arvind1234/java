@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Percolation.getId(...)&apos; to &apos;getSiteId&apos;&#x0A;- Original project: &apos;Percolation&apos;&#x0A;- Original element: &apos;Percolation.getId(...)&apos;&#x0A;- Renamed element: &apos;Percolation.getSiteId(...)&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;getId&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{Percolation.java[Percolation~getId~I~I" name="getSiteId" references="true" stamp="1493015853686" version="1.0"/>
+</session>

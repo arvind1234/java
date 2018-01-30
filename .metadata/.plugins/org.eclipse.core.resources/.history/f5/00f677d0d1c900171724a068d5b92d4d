@@ -1,0 +1,34 @@
+import java.util.ArrayList;
+
+public class FileWrite {
+
+    static class Sample {
+        String id;
+        String name;
+        String payment;
+
+        Sample(String id, String name, String payment) {
+            this.id = id;
+            this.name = name;
+            this.payment = payment;
+        }
+    }
+
+    public FileWrite() {
+        // TODO Auto-generated constructor stub
+    }
+
+    public static void main(String[] args) {
+        ArrayList<Sample> samples = new ArrayList<Sample>();
+
+        for(int i = 0 ; i < 5; i++) {
+            samples.add(new Sample("id_" + i, "name_" + i, "payment_" + i));
+        }
+
+        for(int i = 0; i <samples.size(); i++) {
+            Sample s = samples.get(i);
+            System.out.println("name:" + s.name + " id:" + s.id + " payment:" + s.payment);
+        }
+    }
+
+}
